@@ -1,3 +1,7 @@
+---
+title: "nbquarto"
+---
+
 ## Key Terms
 
 - `Cell`: An executing module or Markdown container in a Jupyter Notebook.
@@ -9,10 +13,6 @@
 Harness the might of Python with `nbquarto`, a dynamic interface to externally transform Jupyter Notebook cells, designed ideally for [Quarto](https://quarto.org/) projects. 
 This framework streamlines your documentation process by enabling rapid creation and implementation of post-processors for Jupyter Notebooks. 
 Although Quarto-focused, `nbquarto` serves as a valuable asset for any Python project leveraging Jupyter Notebooks.
-
-## Getting Started
-
-Check out the installation directions [here](https://muellerzr.github.io/nbquarto) to get started!
 
 ## Choose `nbquarto` for a Superior Experience
 
@@ -62,7 +62,7 @@ Say goodbye to confusion with `nbquarto`'s configuration file. This handy featur
 
 ```yaml
 documentation_source: tests
-processors: [
+notebook_processors: [
     nbquarto.processors.example:BasicProcessor,
     nbquarto.processors.autodoc:AutoDocProcessor
 ]
