@@ -1,4 +1,4 @@
-# nbquarto-tools
+## nbquarto-tools
 
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
@@ -10,6 +10,17 @@
 > Built and maintained by **Jamie Johansson**  
 > Streamlining notebook documentation for modern IT & automation projects.
 
+---
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Jamiezoned/nbquarto-tools.git
+cd nbquarto-tools
+pip install -r requirements.txt
+```
 
 ## Key Terms
 
