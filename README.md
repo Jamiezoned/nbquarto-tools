@@ -1,3 +1,16 @@
+# nbquarto-tools
+
+![Python](https://img.shields.io/badge/python-3.11-blue.svg)
+![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![Status](https://img.shields.io/badge/version-1.0.0-blue.svg)
+
+**nbquarto-tools** – a lightweight Python framework for automating Quarto & Jupyter notebook processing.
+
+> Built and maintained by **Jamie Johansson**  
+> Streamlining notebook documentation for modern IT & automation projects.
+
+
 ## Key Terms
 
 - `Cell`: A code or Markdown unit inside a Jupyter Notebook.
